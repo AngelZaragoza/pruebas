@@ -18,6 +18,7 @@ public class Cliente {
         this.codigo = codCliente;
         this.nombre = nombreCliente;
         this.antiguedad = antigCliente;
+        this.mascota = null;
     }
     
     //GETTERS Y SETTERS
@@ -45,14 +46,13 @@ public class Cliente {
         this.antiguedad = antiguedad;
     }
 
-    public Mascota getMascota() {
-        return mascota;
-    }
-
-    public void setMascota(Mascota mascota) {
-        this.mascota = mascota;
+    public void agregarMascota (int codigo, String nombre, int edad) {
+        mascota = new Mascota(codigo, nombre, edad);        
     }
     
+    public void agregarMascota (Mascota masc) {
+        mascota = masc;
+    }
     
     
     @Override
