@@ -6,118 +6,213 @@
 	
 	<title>Curriculum Vitae</title>
 	
-	<img title="Foto Perfil" src="imgs/perfil_mujer.jpg">
-	
-	<h1>CURRICULUM VITAE</h1>
-	<h2>Celia Paola Albarracín</h2>
-	<link rel="stylesheet" href="css/estilos.css">
+	<!-- <link rel="stylesheet" href="css/estilos.css"> -->
+	<style>
+		.anio {
+			background: #B0C4DE;
+			font-size:110%;
+			border-bottom: solid  #6b6b47 1px ;
+			height:1.8em;
+			padding-left:20px;	
+		}
+
+		ul {
+			list-style-type: circle;
+			padding-left: 0;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
 	
 </head>
 <body>
-		
-	<p>
-		Las Piedras 707<br/>
-		San Miguel de Tucumán
-	</p>
-	<p>
-		<b>0800-810-2345</b><br/>
-		<b>0383-235476</b><br/>
-		<strong><a href="mailto: paola_c@ymail.com">paola_c@ymail.com</a></strong>		
-	</p>
-	<hr>
-	<h3>Experiencia Profesional</h3>
 	
-	<table>
-		<tr class="anio">
-			<td width="150px"><b>2013-2019</b></td>
-			<td><b>Municipalidad de Villa del Totoral</b></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Cargo: Notificadora
-			<ul>
-				<li>Reparto de cedulones de impuestos</li>
-				<li>Notificadora</li>
-				<li>Auxiliar en Recursos Tributarios</li>
-			</ul></td>
-		</tr>
-		<tr class="anio">
-			<td><b>2006-2012</b></td>
-			<td><b>Escuela Normal Superior Villa del Totoral</b></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Cargo: Portera
-			<ul>
-				<li>Limpieza y mantenimiento</li>
-				<li>Tareas administrativas menores</li>
-			</ul></td>
-		</tr>
-		<tr class="anio">
-			<td><b>2001-2005</b></td>
-			<td><b>Pancrek S.A.</b></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Cargo: Maquinista
-			<ul>
-				<li>Operaria de máquinas de empaquetado y embalaje<br>
-					en la línea de producción de galletitas</li>
-			</ul></td>
-		</tr>
-		<tr class="anio">
-			<td><b>1996-1999</b></td>
-			<td><b>Universidad Católica Santo Domingo</b></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Cargo: Cajera - Tareas Varias			
-			<ul>
-				<li>Atención al cliente</li>
-				<li>Cafetería</li>
-				<li>Encargada de Personal</li>
-			</ul>
-			</td>
-		</tr>	
-	</table>
+	<div class="container-fluid">
+		<img title="Foto Perfil" src="imgs/perfil_mujer.jpg" style="float:left;width:225px;margin-right:20px">
+		
+		<h1 class="text-danger font-weight-bold">CURRICULUM VITAE</h1>
+		<h2>Celia Paola Albarracín</h2>
+		
+		<p>
+			Las Piedras 707<br/>
+			San Miguel de Tucumán
+		</p>
+		<p>
+			<b>0800-810-2345</b><br/>
+			<b>0383-235476</b><br/>
+			<strong><a href="mailto: paola_c@ymail.com">paola_c@ymail.com</a></strong>		
+		</p>
+	</div>
+	<hr>
+	
+	<h3 class="text-danger font-weight-bold">Experiencia Profesional</h3>
+	
+	
+	<div class="container-fluid">
+		<div class="row py-2">
+			<div class="col-2 anio">
+				<b>2013-2019</b>
+			</div>
+			<div class="col-6 anio">
+				<b>Municipalidad de Villa del Totoral</b>
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<br/>
+			</div>
+			<div class="col-6">
+				<p>Cargo: Notificadora</p>
+				<ul>
+					<li>Reparto de cedulones de impuestos</li>
+					<li>Notificadora</li>
+					<li>Auxiliar en Recursos Tributarios</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+	<div class="container-fluid">
+		<div class="row py-2">
+			<div class="col-8">
+				<div class="row">
+					<div class="col-3 anio">
+						<b>2006-2012</b>
+					</div>
+					<div class="col-9 anio">
+						<b>Escuela Normal Superior Villa del Totoral</b>
+					</div>
+				</div>				
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-8">
+				<div class="row">
+					<div class="col-3">
+						<br/>
+					</div>
+					<div class="col-9">
+						<p>Cargo: Portera</p>
+						<ul>
+							<li>Limpieza y mantenimiento</li>
+							<li>Tareas administrativas menores</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row py-2">
+			<div class="col-2 anio">
+				<b>2001-2005</b>
+			</div>
+			<div class="col-6 anio">
+				<b>Pancrek S.A.</b>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<br/>
+			</div>
+			<div class="col-6">
+				<p>Cargo: Maquinista</p>
+				<ul>
+					<li>Operaria de máquinas de empaquetado y embalaje<br>
+						en la línea de producción de galletitas</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row py-2">
+			<div class="col-2 anio">
+				<b>1996-1999</b>
+			</div>
+			<div class="col-6 anio">
+				<b>Universidad Católica Santo Domingo</b>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<br/>
+			</div>
+			<div class="col-6">
+				<p>Cargo: Cajera - Tareas Varias</p>
+				<ul>
+					<li>Atención al cliente</li>
+					<li>Cafetería</li>
+					<li>Encargada de Personal</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+	
+	<br/>
+	<hr>	
+
+	<h3 class="text-danger font-weight-bold">Formación Académica</h3>
+	
+	<div class="container-fluid">
+		<div class="row py-2">
+			<div class="col-2 anio">
+				<b>1989-1995</b>
+			</div>		
+			<div class="col-6 anio">
+				<b>Bachiller Comercial</b>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<br/>
+			</div>
+			<div class="col-6">
+				<p>Colegio del Sagrado Corazón</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row py-2">
+			<div class="col-2 anio">
+				<b>1982-1988</b>
+			</div>
+			<div class="col-6 anio">
+				<b>Educación primaria</b>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<br/>
+			</div>
+			<div class="col-6">
+				<p>Escuela General San Martín nº 2</p>
+			</div>
+		</div>
+	</div>
+		
 	<br/>
 	<hr>
-	<h3>Formación Académica</h3>
-	<table>
-		<tr class="anio">
-			<td width="150px"><b>1989-1995</b></td>
-			<td><b>Bachiller Comercial</b></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Colegio del Sagrado Corazón</td>
-		</tr>
-		<tr class="anio">
-			<td><b>1982-1988</b></td>
-			<td><b>Educación primaria</b></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Escuela General San Martín nº 2</td>
-		</tr>		
-	</table>
-	<br/>
-	<hr>
-	<h3>Intereses y Actividades</h3>
-	<table>
-		<tr>
-			<td width="150px"></td>
-			<td>
+
+	<h3 class="text-danger font-weight-bold">Intereses y Actividades</h3>
+	
+	<div class="container-fluid">
+		<div class="row py-2">
+			<div class="col-2">
+				<br/>
+			</div>
+			<div class="col-6">
 				<ul>
 					<li>Administración y Gestión</li>
 					<li>Decoupage</li>
 					<li>Panadería</li>
 					<li>Hotelería y Turismo</li>
 				</ul>
-			</td>
-		</tr>
-	</table>
-	<br/>
+			</div>
+		</div>
+	</div>		
 	<hr>
 	
 </body>
