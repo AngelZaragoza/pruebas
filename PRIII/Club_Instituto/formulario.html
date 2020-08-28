@@ -1,0 +1,187 @@
+<!--Alanes Aguilar Zenobia legajo: 111483-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <!-- viewport hace referencia al tamaño de las pantallas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img_club_futbol/icon.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      body {
+        background-color: #454545;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--tipo HEADER -->
+    <div class="container-fluid text-center badge-danger py-5">
+      <!-- me ocupa todo el ancho del bloque-->
+      <div clas="container text-white">
+        <h1 class="display">Instituto Atlético Central Córdoba</h1>
+        <!--tipo HEADER -->
+      </div>
+      <br />
+      <img
+        src="img_club_futbol/Instituto_Atletico_Central_Cordoba.png"
+        alt=""
+      />
+      <br />
+      <br />
+      <a
+        class="btn btn-dark"
+        href="http://127.0.0.1:5500/principal.html"
+        role="button"
+        >INICIO</a
+      >
+      <a
+        class="btn btn-dark"
+        href="http://127.0.0.1:5500/tabla.html"
+        role="button"
+        >CAMPEONATO</a
+      >
+      <a
+        class="btn btn-dark"
+        href="http://127.0.0.1:5500/formulario.html"
+        role="button"
+        >FORMULARIO</a
+      >
+    </div>
+    <br />
+    <br />
+
+    <div class="container px-lg-5">
+      <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5 border bg-light">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <form>
+            <div class="form-group">
+              <label>Nombre del Jugador</label>
+              <input type="text" class="form-control" id="txtNombre" required />
+              <small id="nombreAyuda" class="form-text text-muted"
+                >Ingrese nombre del nuevo jugador</small
+              >
+            </div>
+            <div class="form-group">
+              <label>Edad</label>
+              <input
+                type="number"
+                class="form-control"
+                id="txtEdad"
+                maxlength="2"
+                required
+              />
+              <small id="edadAyuda" class="form-text text-muted"
+                >Ingrese edad del nuevo jugador</small
+              >
+            </div>
+            <div class="form-group">
+              <labe for="">Posicion</labe>
+              <select type="text" id="cboPosicion">
+                <option value="Seleccione posicion">Seleccione posicion</option>
+                <option value="Arquero">Arquero</option>
+                <option value="Defensor">Defensor</option>
+                <option value="Medio Campista">Medio Campista</option>
+                <option value="Delantero">Delantero</option>
+              </select>
+            </div>
+            <br />
+            <input
+              type="submit"
+              class="btn btn-dark btn-lg btn-block"
+              value="Registrar jugador"
+              onclick="Grabar();"
+            />
+          </form>
+        </div>
+
+        <div class="col py-3 px-lg-5 border bg-light">
+          <img
+            src="img_club_futbol/01.jpg"
+            class="img-fluid"
+            alt="Responsive image"
+          />
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container-fluid bg-danger">
+      <img
+        src="img_club_futbol/111111.jpg"
+        class="rounded mx-auto d-block"
+        alt="..."
+      />
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      function validarForm() {
+        let txtNombre = document.getElementById("txtNombre").value;
+        let txtEdad = document.getElementById("txtEdad").value;
+        let cboPosicion = document.getElementById("cboPosicion").value;
+
+        if (txtNombre === "") {
+          alert("Ingrese  su nombre!");
+          return false;
+        }
+
+        if (cboPosicion === "Seleccione posicion") {
+          alert("Debe seleccionar una opción");
+          return false;
+        }
+        if (txtEdad === "") {
+          alert("Debe ingresar su edad, en formato de número");
+          return false;
+        }
+        return true;
+      }
+    </script>
+    <script>
+      function Grabar() {
+        let txtNombre = document.getElementById("txtNombre");
+        let txtEdad = document.getElementById("txtEdad");
+        let cboPosicion = document.getElementById("cboPosicion");
+        if (validarForm()) {
+          alert("Validacion exitosa!!");
+
+          document.write("BIENVENIDO AL CLUB");
+          document.writeln(
+            " \nNombre del jugador: " +
+              txtNombre.value +
+              "\n Edad: " +
+              txtEdad.value +
+              "\n Posición: " +
+              cboPosicion.value
+          );
+        } else {
+        }
+      }
+    </script>
+  </body>
+</html>
