@@ -13,7 +13,7 @@ public class LC3_Un02_Biblioteca {
         String titulo;
         int opcion;
 
-        System.out.println("SISTEMA BIBLIOTECA");
+        System.out.println("SISTEMA BIBLIOTECA//PROBANDO DE NUEVOOOOOOOO");
         System.out.println("------------------");
         System.out.println("1 - Datos precargados para ver demo");
         System.out.println("2 - Ejecución normal");
