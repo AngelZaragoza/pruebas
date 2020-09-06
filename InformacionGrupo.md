@@ -13,7 +13,7 @@
 | 111610 | Zaragoza, Angel Gabriel |[AngelZaragoza](https://github.com/AngelZaragoza)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111483 | Alanes Aguilar, Zenobia |[UsuarioGitHub](https://github.com/111483-AlanesAguilar)|[UserLinkedin](https://ar.linkedin.com/)|
 | 123456 | Zaragoza, Clon de Prueba |[GabZar](https://github.com/GabZar)|[Gabriel Zaragoza Clon](https://ar.linkedin.com/123456)|
-| 111111 | Apellido, Nombre1 Nombre2 |[UsuarioGitHub](https://github.com/xxxx)|[UserLinkedin](https://ar.linkedin.com/)|
+| 111647 | Cejas, Federico Emmanuel |[Fekiso](https://github.com/Fekiso)|[UserLinkedin](https://ar.linkedin.com/)|
 
 
 # Checklist de estado de actividad
@@ -25,3 +25,4 @@
 
 ## Trello :clipboard:
 - [ ] Capturas del tablero de Trello
+  
