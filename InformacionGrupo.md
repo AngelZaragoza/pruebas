@@ -14,7 +14,7 @@
 | 111483 | Alanes Aguilar, Zenobia |[UsuarioGitHub](https://github.com/111483-AlanesAguilar)|[UserLinkedin](https://ar.linkedin.com/)|
 | 123456 | Zaragoza, Clon de Prueba |[GabZar](https://github.com/GabZar)|[Gabriel Zaragoza Clon](https://ar.linkedin.com/123456)|
 | 111647 | Cejas, Federico Emmanuel |[Fekiso](https://github.com/Fekiso)|[UserLinkedin](https://ar.linkedin.com/)|
-| 111637 | Canciani, Fernando Leo   |[lcanciani](https://github.com/lcanciani)|[UserLinkedin](https://www.linkedin.com/in/fer-canciani-991543192/)|
+| 111637 | Canciani, Fernando Leo   |[lcanciani](https://github.com/lcanciani)|[FernandoCancianiPerfilLinkedIn](https://www.linkedin.com/in/fer-canciani-991543192/)|
 
 
 # Checklist de estado de actividad
