@@ -15,7 +15,7 @@
 | 123456 | Zaragoza, Clon de Prueba |[GabZar](https://github.com/GabZar)|[Gabriel Zaragoza Clon](https://ar.linkedin.com/123456)|
 | 111647 | Cejas, Federico Emmanuel |[Fekiso](https://github.com/Fekiso)|[UserLinkedin](https://ar.linkedin.com/)|
 | 111637 | Canciani, Fernando Leo   |[lcanciani](https://github.com/lcanciani)|[Perfil](https://www.linkedin.com/in/fer-canciani-991543192/)|
-| 111609 | Zanforlin, Carina Mariel |[ZanforlinCarina](https://github.com/ZanforlinCarina)|[UserLinkedin](www.linkedin.com/in/carina-zanforlin-16031987)|
+| 111609 | Zanforlin, Carina Mariel |[ZanforlinCarina](https://github.com/ZanforlinCarina)|[Carina Zanforlin](www.linkedin.com/in/carina-zanforlin-16031987)|
 
 
 # Checklist de estado de actividad
